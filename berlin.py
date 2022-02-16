@@ -1562,7 +1562,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"🤖 Zinda Hu Baby!\n`{ms}` 𝗺𝘀\n          ♛ 𝙁𝙇𝘼𝙎𝙃 𝙎𝙋𝘼𝙈𝘽𝙊𝙏 ♛")
+        await event.edit(f"🤖 Zinda Hu Baby!\n`{ms}` 𝗺𝘀\n          ♛ 𝘿𝙀𝙓𝘿𝙀𝘾𝙍𝙔𝙋𝙏 𝙎𝙋𝘼𝙈𝘽𝙊𝙏 ♛")
 
 
 
@@ -1770,11 +1770,11 @@ async def help(e):
 
     
         
-text = """𝙁𝙇𝘼𝙎𝙃 𝙎𝙋𝘼𝙈𝘽𝙊𝙏"""
+text = """𝘿𝙀𝙓𝘿𝙀𝘾𝙍𝙔𝙋𝙏 𝙎𝙋𝘼𝙈𝘽𝙊𝙏"""
 
 print(text)
 print("")
-print("SMEX! 𝙁𝙇𝘼𝙎𝙃 𝙎𝙋𝘼𝙈𝘽𝙊𝙏 STARTED.")
+print("SMEX! 𝘿𝙀𝙓𝘿𝙀𝘾𝙍𝙔𝙋𝙏 𝙎𝙋𝘼𝙈𝘽𝙊𝙏 STARTED.")
 if len(sys.argv) not in (1, 3, 4):
     try:
         str1.disconnect()
